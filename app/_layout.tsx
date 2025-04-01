@@ -14,7 +14,13 @@ const RootLayout = () => {
           headerShown: false,
         }}
       />
-      <StatusBar />
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="#6200EE"
+        hidden={false}
+        translucent={true}
+        animated={true}
+      />
     </QueryClientProvider>
   );
 };
